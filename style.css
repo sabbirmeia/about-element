@@ -1,13 +1,6 @@
 body{
-    font-family: 'Lato', sans-serif;
-    margin: 0;
+    font-family: 'Luxurious Roman', cursive;
 }
- h1{
-     font-size: 50px;
- }
- p{
-     font-size: 15px;
- }
-  .element-clour{
-      color: rgb(224, 82, 110);
-  }
+.element-clour{
+    color: #f3442c;
+}
