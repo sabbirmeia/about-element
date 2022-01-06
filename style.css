@@ -5,14 +5,26 @@ body{
 .element-clour{
     color: #f3442c;
 }
-.sec-part{
+.part{
     display: flex;
-     
+    margin-bottom: 50px;
+    background-color: peachpuff;
+}
+.img{
+    background-image: url(image/1449527-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center top;
+}
+.igm{
+    background-image: url(image/download-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .first{
-    width: 100%;
+    width: 80%;
     padding: 5%;
-    background-color:#08d3f7;
+    /* background-color:#08d3f7; */
     
 }
  .first img{
@@ -24,4 +36,5 @@ body{
      background-image: linear-gradient(#7976f0,#eeddba);
      color: papayawhip;
      size: 400px;
+     border-radius: 10px;
  }
