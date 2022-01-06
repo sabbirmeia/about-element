@@ -1,14 +1,14 @@
 body{
     font-family: 'Luxurious Roman', cursive;
     margin: 0;
+    background-color: aqua;
 }
 .element-clour{
     color: #f3442c;
 }
 .part{
     display: flex;
-    margin-bottom: 100px;
-    background-color: peachpuff;
+    margin-bottom: 50px;
 }
 .img{
     background-image: url(image/1449527-removebg-preview.png);
@@ -17,9 +17,9 @@ body{
     background-position: center top;
 }
 .igm{
-    background-image: url(image/download-removebg-preview.png);
+    background-image: url();
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: right top;
 }
 .first{
     width: 80%;
@@ -40,10 +40,22 @@ body{
  .third{
        padding-left: 10px;
        margin-bottom: 0px;
+       background-color: brown;
  }
  .third-part{
      box-shadow: 20px 20px 30px black;
      margin: 20px;
      border-radius: 10px;
      padding: 10px;
+     background-color: peachpuff;
+ }
+ .border{
+     border-left: 6px solid;
+     border-image: linear-gradient(rgba(232, 8, 240, 0.952), rgb(0, 17, 255)) 7;
+     /* border-image-slice: 5; */
+     border-radius: 10px;
+ }
+ #medel{
+     border-left: 7px solid;
+     border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
  }
