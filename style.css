@@ -1,6 +1,27 @@
 body{
     font-family: 'Luxurious Roman', cursive;
+    margin: 0;
 }
 .element-clour{
     color: #f3442c;
 }
+.sec-part{
+    display: flex;
+     
+}
+.first{
+    width: 100%;
+    padding: 5%;
+    background-color:#08d3f7;
+    
+}
+ .first img{
+     width: 100%;
+     padding-bottom: 50px;
+ }
+ .button{
+     text-decoration: none;
+     background-image: linear-gradient(#7976f0,#eeddba);
+     color: papayawhip;
+     size: 400px;
+ }
